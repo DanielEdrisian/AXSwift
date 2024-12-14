@@ -68,6 +68,7 @@ public enum AXNotification: String {
 /// All UIElement roles.
 /// - seeAlso: [Roles](https://developer.apple.com/library/mac/documentation/AppKit/Reference/NSAccessibility_Protocol_Reference/index.html#//apple_ref/doc/constant_group/Roles)
 public enum Role: String {
+    case webview            = "AXWebView"
     case unknown            = "AXUnknown"
     case button             = "AXButton"
     case radioButton        = "AXRadioButton"
